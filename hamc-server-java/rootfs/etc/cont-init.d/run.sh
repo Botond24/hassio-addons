@@ -2,6 +2,8 @@
 
 bashio::log.info "Starting..."
 
+rm -f /root/.config/ngrok/ngrok.yml
+
 echo "
 tunnels:
   first:
