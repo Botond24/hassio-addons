@@ -4,14 +4,8 @@ bashio::log.info "Starting..."
 
 #rm -f /root/.config/ngrok/ngrok.yml
 
-echo "
-tunnels:
-  first:
-    addr: 24454
-    proto: udp    
-  second:
-    addr: 25565
-    proto: tcp" > /root/.config/ngrok/ngrok.yml
+touch > /root/.config/ngrok/ngrok.yml
+echo "tunnels:\n  first:\n    addr: 24454\n    proto: udp\n  second:\n    addr: 25565\n    proto: tcp" > /root/.config/ngrok/ngrok.yml
 
 ngrok config add-authtoken $NGROK_API_KEY
 ngrok start --all

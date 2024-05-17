@@ -1,3 +1,7 @@
+## 1.1.2
+
+- fix config
+
 ## 1.0.9
 
 - add ngrok config
