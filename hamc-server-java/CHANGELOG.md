@@ -1,3 +1,7 @@
+## 1.1.3
+
+- remove ngrok cause im stoopid
+
 ## 1.1.2
 
 - fix config
