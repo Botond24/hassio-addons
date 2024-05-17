@@ -52,6 +52,8 @@ RUN if ! command -v bash >/dev/null 2>/dev/null; then (apt-get update && apt-get
     && eval /./automatic_packages.sh "${PACKAGES:-}" \
     && rm /automatic_packages.sh
 
+#ln -sf /addons/data/* /data
+
 ################
 # 4 Entrypoint #
 ################

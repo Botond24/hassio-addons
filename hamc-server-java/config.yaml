@@ -1,6 +1,6 @@
 name: HAMC Server Java
 description: Host a Java Minecraft server on Home Assistant
-version: 1.0.2
+version: 1.0.4
 slug: hamc-java
 init: false
 arch:
@@ -9,8 +9,12 @@ arch:
   - armv7
 ports:
   25565/tcp: "25565"
+  24454/udp: "24454"
+  25575/tcp: "25575"
 ports_description:
   25565/tcp: Minecraft Server Port
+  24454/udp: Siple VC Port
+  25575/tcp: Rcon port
 options:
   VERSION: LATEST
   SERVER_NAME: "HAMC Java Server"
@@ -35,6 +39,7 @@ options:
   FORCE_GAMEMODE: false
   MAX_BUILD_HEIGHT: 256
   TYPE: VANILLA
+  FORGE_VERSION: ""
 schema:
   VERSION: str
   SERVER_NAME: str
