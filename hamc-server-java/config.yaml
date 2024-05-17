@@ -1,6 +1,6 @@
 name: HAMC Server Java
 description: Host a Java Minecraft server on Home Assistant
-version: 1.1.7
+version: 1.1.8
 slug: hamc-java
 init: false
 arch:
@@ -40,7 +40,7 @@ options:
   MAX_BUILD_HEIGHT: 256
   TYPE: VANILLA
   FORGE_VERSION: ""
-  NGROK_API_KEY:
+#  NGROK_API_KEY:
 schema:
   VERSION: str
   SERVER_NAME: str
@@ -66,7 +66,7 @@ schema:
   MAX_BUILD_HEIGHT: int
   TYPE: list(VANILLA|PAPER|PUFFERFISH|PURPUR|FOLIA|QUILT|BUKKIT|SPIGOT|FABRIC|FORGE|MAGMA|LIMBO|CRUCIBLE|CUSTOM|SPONGEVANILLA)
   FORGE_VERSION: str
-  NGROK_API_KEY: password
+#  NGROK_API_KEY: password
 map:
   - addons:rw
 environment:
