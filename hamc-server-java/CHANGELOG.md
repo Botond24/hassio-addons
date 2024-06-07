@@ -1,3 +1,7 @@
+## 1.1.8
+
+- add normal fabric support
+
 ## 1.1.7
 
 - remove ngrok cause im stoopid
