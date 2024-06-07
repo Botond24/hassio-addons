@@ -1,3 +1,7 @@
+## 1.2.1
+
+- reverting previous becasue im stupid
+
 ## 1.2.0
 
 - change to java 17 for compat
