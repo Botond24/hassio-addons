@@ -1,3 +1,7 @@
+## 1.2.2
+
+- actually im not stupid
+
 ## 1.2.1
 
 - reverting previous becasue im stupid
