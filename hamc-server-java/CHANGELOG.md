@@ -1,3 +1,7 @@
+## 1.2.0
+
+- change to java 17 for compat
+
 ## 1.1.9
 
 - add normal fabric support
