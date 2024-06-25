@@ -8,3 +8,4 @@ My custom Home Assistant add-ons. Templates thanks to [alexbelgium](https://gith
 
 ## Add-ons
 - [HAMC-server-java](hamc-server-java/): Minecraft (java) server.
+- [Prusa Connect RSTP](prusa-connect-rstp/): RSTP translator for Prusa Connect
