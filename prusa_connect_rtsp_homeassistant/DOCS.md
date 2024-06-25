@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Prusa Connect RSTP
+# Home Assistant Add-on: Prusa Connect RTSP
 
 ## Installation
 
