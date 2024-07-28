@@ -1,6 +1,6 @@
 name: HAMC Server Java 2
 description: Host a Java Minecraft server on Home Assistant
-version: 1.2.3
+version: 1.2.4
 slug: hamc-java-2
 init: false
 arch:
@@ -39,12 +39,6 @@ options:
   FORCE_GAMEMODE: false
   MAX_BUILD_HEIGHT: 256
   TYPE: VANILLA
-  FORGE_VERSION: ""
-  FABRIC_LAUNCHER_VERSION: ""
-  FABRIC_LOADER_VERSION: ""
-  FTB_MODPACK_ID: 
-  FTB_FORCE_REINSTALL:
-  FTB_MODPACK_VERSION_ID:
 #  NGROK_API_KEY:
 schema:
   VERSION: str
