@@ -1,5 +1,9 @@
 ## 1.2.4
 
+- fix config options
+
+## 1.2.4
+
 - add extra jvm arg support
 
 ## 1.2.3
