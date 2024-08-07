@@ -1,3 +1,12 @@
+## 1.2.4
+
+- add extra jvm arg support
+
+## 1.2.3
+
+- add ftb support
+- change to java 8
+
 ## 1.2.2
 
 - actually im not stupid
