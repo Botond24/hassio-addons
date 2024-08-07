@@ -1,4 +1,8 @@
-## 1.2.4
+## 1.2.6
+
+- make options truly optional
+
+## 1.2.5
 
 - fix config options
 

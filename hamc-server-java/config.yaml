@@ -1,6 +1,6 @@
 name: HAMC Server Java
 description: Host a Java Minecraft server on Home Assistant
-version: 1.2.5
+version: 1.2.6
 slug: hamc-java
 init: false
 arch:
@@ -51,37 +51,37 @@ options:
 #  NGROK_API_KEY:
 schema:
   VERSION: str
-  SERVER_NAME: str
+  SERVER_NAME: str?
   MOTD: str
   LEVEL: str
   GAMEMODE: list(survival|creative|adventure|spectator)
   DIFFICULTY: list(peaceful|easy|normal|hard)
   HARDCORE: bool
   MAX_PLAYERS: int
-  WHITELIST: str
-  OPS: str
+  WHITELIST: str?
+  OPS: str?
   SPAWN_PROTECTION: int
   PVP: bool
   MAX_WORLD_SIZE: int
   ALLOW_NETHER: bool
-  SEED: str
+  SEED: str?
   VIEW_DISTANCE: int
   ONLINE_MODE: bool
   MEMORY: str
-  ANNOUNCE_PLAYER_ACHIEVEMENTS: bool
-  ENABLE_COMMAND_BLOCK: bool
-  FORCE_GAMEMODE: bool
-  MAX_BUILD_HEIGHT: int
+  ANNOUNCE_PLAYER_ACHIEVEMENTS: bool?
+  ENABLE_COMMAND_BLOCK: bool?
+  FORCE_GAMEMODE: bool?
+  MAX_BUILD_HEIGHT: int?
   TYPE: list(VANILLA|PAPER|PUFFERFISH|PURPUR|FOLIA|QUILT|BUKKIT|SPIGOT|FABRIC|FORGE|FTBA|MAGMA|LIMBO|CRUCIBLE|CUSTOM|SPONGEVANILLA)
-  FORGE_VERSION: str
-  FABRIC_LAUNCHER_VERSION: str
-  FABRIC_LOADER_VERSION: str
-  FTB_MODPACK_ID: int
-  FTB_FORCE_REINSTALL: bool
-  FTB_MODPACK_VERSION_ID: int
-  JVM_OPTS: str
-  JVM_XX_OPTS: str
-  JVM_DD_OPTS: str
+  FORGE_VERSION: str?
+  FABRIC_LAUNCHER_VERSION: str?
+  FABRIC_LOADER_VERSION: str?
+  FTB_MODPACK_ID: int?
+  FTB_FORCE_REINSTALL: bool?
+  FTB_MODPACK_VERSION_ID: int?
+  JVM_OPTS: str?
+  JVM_XX_OPTS: str?
+  JVM_DD_OPTS: str?
 map:
   - addons:rw
 environment:
