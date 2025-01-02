@@ -1,3 +1,7 @@
+## 1.2.7
+
+- add Auto Curseforge option
+
 ## 1.2.6
 
 - make options truly optional
