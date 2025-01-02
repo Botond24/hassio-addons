@@ -1,3 +1,7 @@
+## 1.2.8
+
+- update java
+
 ## 1.2.7
 
 - add Auto Curseforge option
